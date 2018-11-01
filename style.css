@@ -1,0 +1,45 @@
+/*class selector */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header { 
+    background: linear-gradient(purple, black);
+    height: 150px;
+    line-height: 150px;
+}
+
+body {
+    background-image: url(https://unsplash.com/photos/2Ni0lCRF9bw);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*id selector*/
+#header-title {
+    display: block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header-nav {
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+
+#header-nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+#header a:hover {
+    color: white;
+    cursor: pointer;
+}
